@@ -1,10 +1,10 @@
-package baitap.sort;
+package baitap.search;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class ClosestMinMax
+public class BinarySearchInRange
 {
     private static Integer[] getArr()
     {

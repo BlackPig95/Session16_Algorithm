@@ -9,19 +9,18 @@ import baitap.search.BinarySearch;
 import baitap.search.InterpolationSearch;
 import baitap.search.LinearSearch;
 import baitap.sort.BubbleSort;
-import baitap.sort.ClosestMinMax;
+import baitap.search.BinarySearchInRange;
 import baitap.sort.InsertionSort;
 import baitap.sort.SelectionSort;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class MainAlgorithm
 {
     public static void main(String[] args)
     {
-        ClosestMinMax.findClosestMinMax();
+        BinarySearchInRange.findClosestMinMax();
         FootballTeam footballTeam1 = new FootballTeam(2, "C", 2, 10);
         FootballTeam footballTeam2 = new FootballTeam(3, "A", 4, 12);
         FootballTeam footballTeam3 = new FootballTeam(1, "B", 3, 9);
