@@ -46,7 +46,7 @@ public class BinarySearchInRange
         //Vì mảng sắp xếp từ lớn đến nhỏ, nên leftIndex sẽ là số lớn nhất, rightIndex là nhỏ nhất
         int leftIndex = findLeftMostIndex(max, arr);
         int rightIndex = findRightMostIndex(min, arr);
-        if (leftIndex > rightIndex)
+        if (leftIndex >= rightIndex)
         {//Left>Right => 2 số max và min nằm trong khoảng giữa 2 số liền kề nhau của arr
             System.out.println("Không có số nào trong khoảng này");
             return;
